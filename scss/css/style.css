@@ -1,0 +1,354 @@
+/* 
+HTML5 Doctor Reset v1.6.1
+http://html5doctor.com/html-5-reset-stylesheet/
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+* {
+  font-family: arial, sans-serif;
+}
+
+body {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  width: 998px;
+  font-family: arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.header-main-logo {
+  padding: 10px;
+  color: #424242;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.header-nav-menu {
+  display: flex;
+}
+.header-nav-menu ul {
+  display: inline-flex;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  text-decoration: none;
+}
+.header-nav-menu li {
+  color: #424242;
+  font-family: arial, sans-serif 15px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.promo-block {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  width: 998px;
+  height: 499px;
+  background-size: 998px, 499px;
+  background-repeat: no-repeat;
+  background-image: url(../../image/main-pic.jpg);
+}
+.promo-block .promo-block-description {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+.promo-block .promo-block-description h1 {
+  font-family: arial, sans-serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+.promo-block .promo-block-description h2 {
+  font-family: arial, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.promo-block .promo-block-button {
+  color: #fff;
+  background-color: #f8cd53;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid;
+}
+.promo-block .promo-block-button:hover {
+  background-color: #e0c67d;
+  border: solid;
+}
+.promo-block .promo-block-button:active {
+  background-color: #ff0000;
+  border: solid;
+}
+
+.block-about-us {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.block-about-us .block-about-us-header {
+  display: flex;
+  flex-direction: column;
+}
+.block-about-us .block-about-us-header h2 {
+  font-size: 22px;
+  color: #424242;
+  font-weight: bold;
+}
+.block-about-us .block-about-us-header p {
+  font-size: 13px;
+  color: #424242;
+  font-weight: bold;
+}
+.block-about-us .block-about-us-items {
+  display: flex;
+  width: 55%;
+  padding-top: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.block-about-us .block-about-us-cart {
+  display: flex;
+  color: #5c5c5c;
+  font-size: 13px;
+  font-weight: normal;
+  flex-direction: column;
+}
+.block-about-us .block-about-us-cart .img-size {
+  width: 64px;
+  height: 64px;
+}
+.block-about-us .block-about-us-cart h2 {
+  font-size: 22px;
+  color: #424242;
+  font-weight: bold;
+  padding: 15px;
+}
+.block-about-us .block-about-us-cart p {
+  font-size: 13px;
+  color: #424242;
+  font-weight: bold;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.right-content {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 3rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #515151;
+}
+.footer #text {
+  width: 55%;
+}
+.footer h5 {
+  padding-right: 15px;
+  font-size: 14px;
+  color: #cecece;
+  font-weight: normal;
+}/*# sourceMappingURL=style.css.map */
