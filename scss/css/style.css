@@ -172,6 +172,14 @@ select {
   font-family: arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  background-color: rgba(107, 107, 107, 0.3019607843);
+}
+
 body {
   display: flex;
   width: auto;
@@ -285,7 +293,7 @@ body {
 }
 .block-about-us .block-about-us-items {
   display: flex;
-  width: 55%;
+  width: 65%;
   padding-top: 2rem;
   justify-content: space-evenly;
   align-items: center;
